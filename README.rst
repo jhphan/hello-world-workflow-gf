@@ -1,6 +1,18 @@
-Workflow
-========
+Hello World! One-Step GeneFlow Workflow
+=======================================
 
-Add your workflow description and basic usage instructions here. At a minimum, it should include a description of inputs and parameters.
+Version: 0.2
+
+This is a basic one-step GeneFlow workflow that prints the contexts of an input text file to an output text file.
+
+Inputs
+------
+
+1. file: Input text file.
+
+Parameters
+----------
+
+None
 
 
