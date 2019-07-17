@@ -27,7 +27,7 @@ inputs:
 parameters:
 
 # steps
-isteps:
+steps:
   hello:
     app: apps/hello-world-gf-0.2/app.yaml
     depend: []
