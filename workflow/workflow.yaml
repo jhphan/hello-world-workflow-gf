@@ -8,7 +8,7 @@ name: Hello World Workflow
 description: Hello World one-step workflow
 documentation_uri: 
 repo_uri: 'https://github.com/jhphan/hello-world-workflow-gf.git'
-version: '0.3'
+version: '0.4'
 username: user
 
 final_output:
@@ -25,13 +25,21 @@ inputs:
 
 # parameters
 parameters:
+  mode:
+    label: Mode
+    description: Execution mode
+    type: string
+    default: basic
+    enable: true
+    visible: true
 
 # steps
 steps:
   hello:
-    app: apps/hello-world-gf-0.3/app.yaml
+    app: apps/hello-world-gf-0.4/app.yaml
     depend: []
     template:
       file: '{workflow->file}'
+      mode: '{workflow->mode}'
       output: output.txt
 ...

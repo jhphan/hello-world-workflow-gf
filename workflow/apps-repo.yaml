@@ -10,6 +10,6 @@ apps:
 
 - name: hello-world
   repo: https://github.com/jhphan/hello-world-gf.git
-  tag: '0.3'
-  folder: hello-world-gf-0.3
+  tag: '0.4'
+  folder: hello-world-gf-0.4
   asset: none
